@@ -16,6 +16,7 @@ public class Problem1Test {
                 {2, 2, 1, 1, 0, 0},
                 {1, 2, 0, 1, 2, 0},
                 {2, 0, 2, 1, 1, 0},
+                {0, 0, 0, 0, 2, 0}
         };
 
         int[][] expects = {
@@ -28,6 +29,7 @@ public class Problem1Test {
                 {0, 0, 1, 1, 2, 2},
                 {0, 0, 1, 1, 2, 2},
                 {0, 0, 1, 1, 2, 2},
+                {0, 0, 0, 0, 0, 2}
         };
 
         for (int i = 0; i < inputs.length; i++) {
